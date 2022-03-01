@@ -39,6 +39,30 @@ Depending on the inbound images, the resulting image may include image errors, a
 
 # Implementation
 
+## Installation of Toolchain of Xilinx Kria
+
+Install board and accessory pack and the required monitors, computers or keyboards as described in the getting started guide published on the Xilinx homepage. The following project describes configurations that allow you to use an VLC player instead of an attached monitor. 
+
+The following picture describes the system architecture of KRIA with attached accessory pack. You can provide the inbound photo stream as by the following channels: 
+
+* USB Webcam
+* Image Sensor (MIPI Interface)
+* SD card 
+
+## Installation of Xilinx Toolchain
+
+This section targets developers that start from scratch on MAC OSX.
+
+* Getting started: After you received your development kit, you probably want to get your hands around it, by means of a hello world example. Xilinx offers the following starter guide and introductory video https://www.xilinx.com/video/som/out-of-the-box-with-kria-kv260-up-and-running-in-under-an-hour.html. Run it from start to end. The starter guide requires that you have a separate monitor, mouse and keyboard. In this documentation describes how you can configure and use the VLC player instead of a separate monitor in order to present the hello-world-video stream https://www.hackster.io/whitney-knitter/getting-started-with-the-kria-kv260-ai-vision-kit-c6d6af
+
+* Toolchain: In order to develop Kria Apps, Xilinx offers you several tools. To install and use them you either need a system on Microsoft OS or on Linux. On Apple computers (OSX) you would typically  run these tools in a Linux or Windows System that runs within a virtualized box. Some virtualization options are Oracle's Virtual Box (https://www.virtualbox.org), or the open source QEMU (https://www.qemu.org/download/). Install your virtualization framework of choice, and create an empty image. Be aware that Xilinx Tools demand disk space and compute power (see next section).
+
+* Start the image, and install a clean target OS (for my project, I use Ubuntu 18.04). The following guide leads you through the process to install the complete Xilinx tool-c hain on this clean system: https://www.hackster.io/whitney-knitter/installing-vivado-vitis-petalinux-2021-2-on-ubuntu-18-04-0d0fdf (Remark: As by Whitney, the resource requirements are "I've found you should have at least 300GB of free space available to install all of the Xilinx tools and 32GB - 64GB of RAM with at least 8 CPU cores you can dedicate to them").
+
+* Develop a Kria App: After your system is set up and running, you can start to develop your project. The following Guide leads you thru the process to develop a Kria App that makes use of the open source GStreamer framework that is typically used in video projects https://community.element14.com/technologies/fpga-group/b/blog/posts/kv260-vvas-sms-2021-1-part7. I recommend you to recreate the example within your own hardware.
+
+## Installation of Python Environment
+
 
 
 Copyright 2022 Andreas Rudolph, and is released under the Apache 2.0 license (see license file).
