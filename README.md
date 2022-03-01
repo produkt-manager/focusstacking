@@ -22,5 +22,24 @@ Different algorithms for stacking photos exists. In each case the objective is t
 - Gradients: The darker the pixels the sharper the particular area of a blurred photo is. In order to find the gradients a gradient map is created, vy means of calculating the laplacian of the blurred photo.
 - Creation of the stacked photo: In order to create the final photo, each pixel [x,y] in the output image consists of the pixel [x,y] from all input images that consits of the largest gradient [x,y].
 
+## Concept and Test
+
+The following notebook uses the Wolfram Language, and the documentation of the Wolfram Language in order to test the focus stacking algorithms, and lay the foundation for a concept https://github.com/produkt-manager/focusstacking/blob/main/Focus_Staking%20Test_Contest.pdf. 
+
+As you see in this notebook, the following process is able to produce a sharp stacked image out of a list of images that differ in focus plane.
+
+* Take a focus stack that includes several images with variations in the focus plane.
+* Align each image in the stack to one reference image within the stack.
+* Calculate which parts of each image are in-focus and assign per-pixel weights that represent these parts.  
+* Calculate the image average of these areas and combine these parts info one image.
+
+To identify in-focus pixels in an image, the local sharpness is calculated using the Laplacian operator. The size of the operator directly indicates the sharpness of the pixels (the higher, the sharper). Gaussian blur is then added to make sure that nearby pixels have similar weights. Then each image and pixel the Laplacian is multiplied with the Gaussian blur. The result is added, and finally divided by the sum of weights. 
+
+Depending on the inbound images, the resulting image may include image errors, and therefore the process requires postprocessing steps. 
+
+# Implementation
+
+
+
 Copyright 2022 Andreas Rudolph, and is released under the Apache 2.0 license (see license file).
 
