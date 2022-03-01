@@ -37,9 +37,9 @@ To identify in-focus pixels in an image, the local sharpness is calculated using
 
 Depending on the inbound images, the resulting image may include image errors, and therefore the process requires postprocessing steps. 
 
-# Implementation
+# Installation
 
-## Installation of Toolchain of Xilinx Kria
+## Installation of Xilinx Kria KV260
 
 Install board and accessory pack and the required monitors, computers or keyboards as described in the getting started guide published on the Xilinx homepage. The following project describes configurations that allow you to use an VLC player instead of an attached monitor. 
 
@@ -63,7 +63,19 @@ This section targets developers that start from scratch on MAC OSX.
 
 ## Installation of Python Environment
 
+The Xilinx Toolchain is  demanding. A different option is to work with a Python environment within the official Ubuntu SD Card image for the XILINX KRIA KV260 SOM. 
 
+* This GitHub repository describes the installation: https://github.com/Xilinx/Kria-PYNQ.
+* This post documents the installation steps https://discuss.pynq.io/t/pynq-now-available-for-the-kria-kv260-vision-ai-starter-kit/3579.
 
+After installation update your installation using the commands "sudo apt-get update",  "sudo apt-get upgrade", and "sudo reboot". After the system is up and running again, start the environment using the weblink http://kria:9090, and log In to your system.
+
+You can install the extensions of your needs by using the corresponding area in JupyterLab. In particular implement the assignment to Github using the jupyterlab/jupyterlab-github extension. This extension allows you to open GitHub repositories directly from your XILINX KRIA KV260 board.
+
+The JupyterLab installation for the XILINX KRIA KV260 SOM includes several examples that show you the different options to program and work with the board. This is for example code for a webcam that is able to detect faces using openCV http://kria:9090/lab/workspaces/auto-y/tree/kv260/video/opencv_face_detect_webcam.ipynb.
+
+# Implementation
+
+<to Follow>
 Copyright 2022 Andreas Rudolph, and is released under the Apache 2.0 license (see license file).
 
