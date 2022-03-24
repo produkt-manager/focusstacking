@@ -81,7 +81,18 @@ The JupyterLab installation for the XILINX KRIA KV260 SOM includes several examp
 
 After you have installed and tested the standard Xilinx Kria KV260 and PYNQ you can upload the Jupyter Notebook for focus stacking. Use the standard upload features in the Jupyter Lab in order to load it to the board. If you have installed it you can also use the GitHub link from Jupyter lab to my GitHub.
 
-The Jupyter Notebook is self-explanatory. Using example images, it shows you step by step, how to combine these images into one image.  
+The Jupyter Notebook is self-explanatory. Using example images, it shows you step by step, how to combine these images into one image. 
+
+## Related Information
+
+Find here a list of helpful imaging resources on the internet:
+
+* Extreme Macro http://extreme-macro.co.uk/
+* Photographylife - Article about macro photography https://photographylife.com/macro-photography-tutorial
+* Blur detection with openCV https://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/
+* How to focus stack: step by step https://digital-photography-school.com/a-beginners-guide-to-focus-stacking/ 
+
+Disclaimer: I do not take responsibility for the contentof linked websites
 
 Copyright 2022 Andreas Rudolph, and is released under the Apache 2.0 license (see license file).
 
