@@ -83,7 +83,7 @@ After you have installed and tested the standard Xilinx Kria KV260 and PYNQ you 
 
 The Jupyter Notebook is self-explanatory. Using example images, it shows you step by step, how to combine these images into one image. 
 
-## Related Information
+# Related Information
 
 Find here a list of helpful imaging resources on the internet:
 
