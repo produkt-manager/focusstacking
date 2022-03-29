@@ -79,7 +79,7 @@ The JupyterLab installation for the XILINX KRIA KV260 SOM includes several examp
 
 # Focus stacking in Python on Ubuntu
 
-After you have installed and tested the standard Xilinx Kria KV260 and PYNQ you can upload the Jupyter Notebook for focus stacking. Use the standard upload features in the Jupyter Lab in order to load it to the board. If you have installed it you can also use the GitHub link from Jupyter lab to my GitHub.
+After you have installed and tested the standard Xilinx Kria KV260 and PYNQ you can upload this Jupyter Notebook for focus stacking https://github.com/produkt-manager/focusstacking/blob/main/Focusstacking_KV260_V1_0.ipynb. Use the standard upload features in the Jupyter Lab in order to load it to the board. If you have installed it you can also use the GitHub link from Jupyter lab to my GitHub.
 
 The Jupyter Notebook is self-explanatory. Using example images, it shows you step by step, how to combine these images into one image. 
 
