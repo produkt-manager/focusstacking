@@ -91,6 +91,7 @@ Find here a list of helpful imaging resources on the internet:
 * Photographylife - Article about macro photography https://photographylife.com/macro-photography-tutorial
 * Blur detection with openCV https://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/
 * How to focus stack: step by step https://digital-photography-school.com/a-beginners-guide-to-focus-stacking/ 
+* FTPedia https://ftcommunity.de/ftpedia/ including documentation about how to build prototypes for foto equipment using standard construction elements (Fischertechnik) https://www.ftcommunity.de/ftpedia/2021/2021-2/ftpedia-2021-2.pdf
 
 Disclaimer: I do not take responsibility for the contentof linked websites
 
